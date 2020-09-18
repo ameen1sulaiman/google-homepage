@@ -1,46 +1,67 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <link rel="stylesheet" href="./css/master.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">  
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/vendor/all.min.js"></script>
     <title>Google</title>
-</head>
+  </head>
+  <body>
 
-<body>
+    <div class="main-container">
+      <div class="main-navigation-container">
+        <nav class="navigation">
+          <a href="https://mail.google.com/mail" class="navigation-link">Gmail</a>
+          <a href="https://www.google.com/imghp?hl=en&tab=wi&ogbl" class="navigation-link">Images</a>
+          <a href="#" class="navigation-link" title="Other Projects" id="apps-link"><i class="fas fa-th"></i></a>
+          <a href="#" class="navigation-link" id="user-link"> <i class="fas fa-user-circle"></i> </a>
+        </nav>
+      </div>
 
-    <style>
-        ul {
-            list-style-type: none;
-            margin: auto;
-            padding: auto;
-        }
-        .logo{ 
-        
-        }
-        
+      <div class="main-block">
+        <div class="main-content">
+          <div class="logo-container">
+            <img src="./assets/logo.png" alt="Google Logo">
+          </div>
+          <div class="search-bar-container">
+            <span class="fas fa-search" id="search-bar-icon"></span>
+            <input type="text" id="search-bar">
+          </div>
+          <div class="search-buttons-container">
+            <button type="button" class="search-button">Google Search</button>
+            <button type="button" class="search-button">I'm Feeling Lucky</button>
+          </div>
+          <div class="bring-message">
+            Google offered in: <a href="javascript:return 0;">English,</a> <a href="javascript:return 0;">Spanish</a> <a href="javascript:return 0;">, தமிழ்</a>
+          </div>
+        </div>
+      </div>
 
-    </style>
+      <div class="footer">
+        <div class="left-footer-nav">
+          <nav class="footer-nav">
+            <a href="https://ads.google.com/" class="footer-nav-link">Advertising</a>
+            <a href="https://smallbusiness.withgoogle.com/" class="footer-nav-link">Business</a>
+            <a href="https://about.google/" class="footer-nav-link">About</a>
+            <a href="https://www.google.com/search/howsearchworks/" class="footer-nav-link">How Search works</a>
+          </nav>
+        </div>
+        <div class="right-footer-nav">
+          <nav class="footer-nav">
+            <a href="https://policies.google.com/privacy" class="footer-nav-link">Privacy</a>
+            <a href="https://policies.google.com/terms" class="footer-nav-link">Terms</a>
+            <a href="https://www.google.com/preferences" class="footer-nav-link">Settings</a>
+          </nav>
+        </div>
+      </div>
+    </div>
 
-    <nav>
-        <ul>
-            <li><a href="default.asp">Home</a></li>
-            <li><a href="news.asp">News</a></li>
-            <li><a href="about.asp">About</a></li>
-        </ul>
-    </nav>
 
-    <img  id="logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google-logo" >
-
-    <br><input type="search">
-
-    <footer>
-        <ul>
-            <li><a href="default.asp">Home</a></li>
-            <li><a href="news.asp">News</a></li>
-            <li><a href="about.asp">About</a></li>
-        </ul>
-    </footer>
-</body>
-
+    <script src="./js/vendor/jquery-3.4.1.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
 </html>
